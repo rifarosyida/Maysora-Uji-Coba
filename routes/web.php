@@ -96,9 +96,9 @@ Route::put('/customer/profil/{id}', [CustomerPageController::class, 'update']);
 
 // Cart
 Route::get('/customer/cart', [CartController::class, 'index'])->name('cart.index');
-Route::post('/customer/produkcart',[CartController::class, 'addToCart'])->name('cart.addToCart');
 Route::put('/customer/cart/{cart:id}',[CartController::class, 'updateQuantity'])->name('cart.updateQuantity');
 Route::delete('/customer/cart/{cart:id}',[CartController::class, 'destroy'])->name('cart.delete');
 });
 
 
+Route::post('/customer/produkcart', [CartController::class, 'addToCart'])->name('cart.addToCart');

@@ -18,7 +18,7 @@ class ProdukSeeder extends Seeder
             //Kecantikan
             [
                 'nama_produk' => 'Avoskin Perfect Hydrating Treatment Essence',
-                'foto_produk' => 'images/Avoskin Perfect Hydrating Treatment Essence.png',
+                'foto_produk' => '/images/Avoskin.png',
                 'harga' => 299000,
                 'stok' => 3,
                 'diskon' => 0,
@@ -30,7 +30,7 @@ class ProdukSeeder extends Seeder
             ],
             [
                 'nama_produk' => 'Bodyscrub Camille 250gr by camille',
-                'foto_produk' => 'images/resorBercorakL.jpg',
+                'foto_produk' => '/images/gambar/skincare/Bodyscrub Camille 250gr by camille.png',
                 'harga' => 75000,
                 'stok' => 1,
                 'diskon' => 0,
@@ -40,7 +40,7 @@ class ProdukSeeder extends Seeder
             ],
             [
                 'nama_produk' => 'Emina Sugar Rush Lip Scrub 4.2 gr',
-                'foto_produk' => 'images/kemejaregulerL.jpg',
+                'foto_produk' => 'images/gambar/skincare/Emina Sugar Rush Lip Scrub.png',
                 'harga' => 38500,
                 'stok' => 100,
                 'diskon' => 0,
@@ -50,7 +50,7 @@ class ProdukSeeder extends Seeder
             ],
             [
                 'nama_produk' => 'FACETOLOGY Triple Care Sunscreen SPF 40+ PA+++ Hybrid',
-                'foto_produk' => 'images/kemejaresortL.jpg',
+                'foto_produk' => 'images/gambar/skincare/Facetology triple care sunscreen.png',
                 'harga' => 79999,
                 'stok' => 2,
                 'diskon' => 0,
@@ -62,7 +62,7 @@ class ProdukSeeder extends Seeder
             ],
             [
                 'nama_produk' => 'Golden Viera Soap',
-                'foto_produk' => 'images/kemejaresorL.jpg',
+                'foto_produk' => 'images/gambar/skincare/Golden Viera Shop.png',
                 'harga' => 40000,
                 'stok' => 3,
                 'diskon' => 0,
@@ -72,7 +72,7 @@ class ProdukSeeder extends Seeder
             ],
             [
                 'nama_produk' => 'Hada Labo Gokujyun Ultimate Moisturizing Lotion',
-                'foto_produk' => 'images/patterned.jpg',
+                'foto_produk' => 'images/gambar/skincare/Hadalabo Goku Jyun Moisturizing lotion.png',
                 'harga' => 55000,
                 'stok' => 1,
                 'diskon' => 0,
@@ -83,7 +83,7 @@ class ProdukSeeder extends Seeder
             ],
             [
                 'nama_produk' => 'Madame Gie Madame Perfect Brow - MakeUp Pensil alis Mekanik',
-                'foto_produk' => 'images/kemejakatunL.jpg',
+                'foto_produk' => 'images/gambar/skincare/Madame Gie Madame Perfect Brow.png',
                 'harga' => 20000,
                 'stok' => 2,
                 'diskon' => 0,
@@ -93,7 +93,7 @@ class ProdukSeeder extends Seeder
             ],
             [
                 'nama_produk' => 'Noera 3 In 1 Body Spray | Natural Deo Spray Penghilang Bau Badan BPOM',
-                'foto_produk' => 'images/roundneckL.jpg',
+                'foto_produk' => 'images/gambar/skincare/Noera 3 in 1 Body Spray.png',
                 'harga' => 44900,
                 'stok' => 2,
                 'diskon' => 0,
@@ -104,7 +104,7 @@ class ProdukSeeder extends Seeder
             ],
             [
                 'nama_produk' => 'NPURE Face Wash / FOAM CENTELLA ASIATICA (Cica Series)',
-                'foto_produk' => 'images/jaketKemejaL.jpg',
+                'foto_produk' => 'images/gambar/skincare/NPure Face Wash Centella Asiatica.png',
                 'harga' => 90000,
                 'stok' => 5,
                 'diskon' => 0,
@@ -114,7 +114,7 @@ class ProdukSeeder extends Seeder
             ],
             [
                 'nama_produk' => 'Scarlett Whitening Skin Smoothing Retinol Serum',
-                'foto_produk' => 'images/printedL.jpg',
+                'foto_produk' => 'images/gambar/skincare/Scarlett Whitening Skin Smoothing Retinol Serum.png',
                 'harga' => 75000,
                 'stok' => 5,
                 'diskon' => 0,
@@ -126,7 +126,7 @@ class ProdukSeeder extends Seeder
             ],
             [
                 'nama_produk' => 'SKINTIFIC - 360 Crystal Massager Lifting Eye Cream',
-                'foto_produk' => 'images/jacketL.jpg',
+                'foto_produk' => 'images/gambar/skincare/Skintific Massager Lifting Eye Cream.png',
                 'harga' =>189900,
                 'stok' => 1,
                 'diskon' => 0,
@@ -138,7 +138,7 @@ class ProdukSeeder extends Seeder
             ],
             [
                 'nama_produk' => 'AZARINE HYDRASHOOTHE SUNSCREEN GEL SPF45 PA++++',
-                'foto_produk' => 'images/jacquardL.jpg',
+                'foto_produk' => 'images/gambar/skincare/Suncreen gel azarine.png',
                 'harga' => 68000,
                 'stok' => 10,
                 'diskon' => 0,
@@ -150,7 +150,7 @@ class ProdukSeeder extends Seeder
             //Fahion Wanita
             [
                 'nama_produk' => 'Amira Blouse',
-                'foto_produk' => 'images/pt1.jpg',
+                'foto_produk' => 'images/gambar/Fashion wanita/Amira Blouse.png',
                 'harga' => 49990,
                 'stok' => 15,
                 'diskon' => 0,
@@ -161,7 +161,7 @@ class ProdukSeeder extends Seeder
             ],
             [
                 'nama_produk' => 'Candy Oversize',
-                'foto_produk' => 'images/pt2.jpg',
+                'foto_produk' => 'images/gambar/Fashion wanita/Candy Oversize.png',
                 'harga' => 38000,
                 'stok' => 5,
                 'diskon' => 0,
@@ -171,7 +171,7 @@ class ProdukSeeder extends Seeder
             ],
             [
                 'nama_produk' => 'HIJAB SPORT BAHAN STELLA PREMIUM',
-                'foto_produk' => 'images/pt3.jpg',
+                'foto_produk' => 'images/gambar/Fashion wanita/Hijab Sport Bahan Stella Premium.png',
                 'harga' => 16900,
                 'stok' => 8,
                 'diskon' => 0,
@@ -183,7 +183,7 @@ class ProdukSeeder extends Seeder
             ],
             [
                 'nama_produk' => 'Inner leher | manset leher',
-                'foto_produk' => 'images/pt4.jpg',
+                'foto_produk' => 'images/gambar/Fashion wanita/Inner Leher.png',
                 'harga' => 15900,
                 'stok' => 11,
                 'diskon' => 0,
@@ -193,7 +193,7 @@ class ProdukSeeder extends Seeder
             ],
             [
                 'nama_produk' => 'Inner Rib Ruffle Turtleneck',
-                'foto_produk' => 'images/pt5.jpg',
+                'foto_produk' => 'images/gambar/Fashion wanita/Inner Rib Ruffle Turtleneck.png',
                 'harga' => 45900,
                 'stok' => 4,
                 'diskon' => 0,
@@ -203,7 +203,7 @@ class ProdukSeeder extends Seeder
             ],
             [
                 'nama_produk' => 'Kaos Rib Basic',
-                'foto_produk' => 'images/pt6.jpg',
+                'foto_produk' => 'images/gambar/Fashion wanita/Kaos Rib Basic.png',
                 'harga' => 40000,
                 'stok' => 5,
                 'diskon' => 0,
@@ -213,7 +213,7 @@ class ProdukSeeder extends Seeder
             ],
             [
                 'nama_produk' => 'Paris Premium Voal',
-                'foto_produk' => 'images/pt7.jpg',
+                'foto_produk' => 'images/gambar/Fashion wanita/Paris Premium Voal.png',
                 'harga' => 99900,
                 'stok' => 56,
                 'diskon' => 0,
@@ -224,7 +224,7 @@ class ProdukSeeder extends Seeder
             ],
             [
                 'nama_produk' => 'PASMINA CERUTY BABYDOL IMPORT',
-                'foto_produk' => 'images/pt8.jpg',
+                'foto_produk' => 'images/gambar/Fashion wanita/Pasmina Ceruty Babydol Import.png',
                 'harga' => 29900,
                 'stok' => 10,
                 'diskon' => 0,
@@ -234,7 +234,7 @@ class ProdukSeeder extends Seeder
             ],
             [
                 'nama_produk' => 'PASMINA INNER PREMIUM 2 in 1',
-                'foto_produk' => 'images/pt9.jpg',
+                'foto_produk' => 'images/gambar/Fashion wanita/Pasmina Inner Premium 2 in 1.png',
                 'harga' => 35000,
                 'stok' => 4,
                 'diskon' => 0,
@@ -245,7 +245,7 @@ class ProdukSeeder extends Seeder
             ],
             [
                 'nama_produk' => 'PASMINA PLISKET PREMIUM TANPA GARIS TENGAH',
-                'foto_produk' => 'images/pt10.jpg',
+                'foto_produk' => 'images/gambar/Fashion wanita/Pasmina Plisket Premium Tanpa Garis Tengah.png',
                 'harga' => 33900,
                 'stok' => 4,
                 'diskon' => 0,
@@ -256,7 +256,7 @@ class ProdukSeeder extends Seeder
             ],
             [
                 'nama_produk' => 'Pashmina Silk Premium',
-                'foto_produk' => 'images/pt11.jpg',
+                'foto_produk' => 'images/gambar/Fashion wanita/Pasmina silk Premium.png',
                 'harga' => 39900,
                 'stok' => 10,
                 'diskon' => 0,
@@ -267,7 +267,7 @@ class ProdukSeeder extends Seeder
             ],
             [
                 'nama_produk' => 'SEGIEMPAT INNER 2in1',
-                'foto_produk' => 'images/pt12.jpg',
+                'foto_produk' => 'images/gambar/Fashion wanita/Segiempat Inner 2 in 1.png',
                 'harga' => 38000,
                 'stok' => 14,
                 'diskon' => 0,
@@ -280,7 +280,7 @@ class ProdukSeeder extends Seeder
             //Perempuan Kesehatan
             [
                 'nama_produk' => 'GLOW COLLAGEN QUEENZY SKIN',
-                'foto_produk' => 'images/gaunvneckP.jpg',
+                'foto_produk' => 'images/gambar/kesehatan/Glow Collagen Queenzy Skin.png',
                 'harga' => 25000,
                 'stok' => 8,
                 'diskon' => 0,
@@ -292,7 +292,7 @@ class ProdukSeeder extends Seeder
             ],
             [
                 'nama_produk' => 'Noera Collagen Drink',
-                'foto_produk' => 'images/tie-beltP.jpg',
+                'foto_produk' => 'images/gambar/kesehatan/Noera Collagen Drink.png',
                 'harga' => 185000,
                 'stok' => 5,
                 'diskon' => 0,
@@ -305,7 +305,7 @@ class ProdukSeeder extends Seeder
             //souvenir
             [
                 'nama_produk' => 'Packaging Box (FREE Kartu Ucapan)',
-                'foto_produk' => 'images/pd1.jpg',
+                'foto_produk' => 'images/gambar/Souvenir dan pesta/Packaging Box.png',
                 'harga' => 10000,
                 'stok' => 40,
                 'diskon' => 0,

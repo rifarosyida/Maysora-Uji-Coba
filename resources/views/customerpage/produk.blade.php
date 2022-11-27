@@ -20,10 +20,10 @@
                                 <div class="row">
                                     <div class="col-lg-6 offset-lg-3">
                                         <ul>
-                                            <li><a href="{{ url('customer/produk/SC') }}" class="{{ ($active == 'SC') ? 'produk-aktif' : '' }}"><img src="{{ asset('frontend/asset/images/male.png') }}" >Skincare</a></a></li>
-                                            <li><a href="{{ url('customer/produk/FW') }}" class="{{ ($active == 'FW') ? 'produk-aktif' : '' }}"><img src="{{ asset('frontend/asset/images/boy.png') }}" >Fashion Wanita</a></a></li>
-                                            <li><a href="{{ url('customer/produk/KH') }}" class="{{ ($active == 'KH') ? 'produk-aktif' : ''  }}"><img src="{{ asset('frontend/asset/images/female.png')}}" >Kesehatan</a></li>
-                                            <li><a href="{{ url('customer/produk/SP') }}" class="{{ ($active == 'SP') ? 'produk-aktif' : ''  }}"><img src="{{ asset('frontend/asset/images/girl.png')}}" >souvenir dan Pesta</a></li>
+                                            <li><a href="{{ url('customer/produk/SC') }}" class="{{ ($active == 'SC') ? 'produk-aktif' : '' }}"><img src="{{ asset('frontend/asset/images/skincare.png') }}" >Skincare</a></a></li>
+                                            <li><a href="{{ url('customer/produk/FW') }}" class="{{ ($active == 'FW') ? 'produk-aktif' : '' }}"><img src="{{ asset('frontend/asset/images/girl.png') }}" >Fashion Wanita</a></a></li>
+                                            <li><a href="{{ url('customer/produk/KH') }}" class="{{ ($active == 'KH') ? 'produk-aktif' : ''  }}"><img src="{{ asset('frontend/asset/images/health.png')}}" >Kesehatan</a></li>
+                                            <li><a href="{{ url('customer/produk/SP') }}" class="{{ ($active == 'SP') ? 'produk-aktif' : ''  }}"><img src="{{ asset('frontend/asset/images/party.png')}}" >souvenir dan Pesta</a></li>
                                             
                                         </ul>
                                     </div>
@@ -59,8 +59,8 @@
                                         <div class="col-lg-12">
                                             <div class="tab-item">
                                                 <a href="{{ route('produk.detail', $produk->id) }}">
-                                                    <img src="/storage/app/public{{ $produk->foto_produk }}" width="100px" height="150px">
-                                                <h4>{{ $produk->nama_produk }}</h4>  
+                                                    <img src="/storage/{{ $produk->foto_produk }}" width="100px" height="150px">
+                                                <h4>{{ substr($produk->nama_produk,0, 30) }}...</h4>  
                                                 <p>{{ substr($produk->deskripsi, 0, 80) }}...</p>
                                                 </a>
                                                 <div class="price">

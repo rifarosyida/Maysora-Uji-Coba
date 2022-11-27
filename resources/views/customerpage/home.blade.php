@@ -1,4 +1,4 @@
-@extends('customerpage.partials.content' , ['title' => 'Dz Fashion - Homepage'])
+@extends('customerpage.partials.content' , ['title' => 'Maysora - Homepage'])
 
     @section('content')
     <!-- ***** Main Banner Area Start ***** -->
@@ -8,10 +8,11 @@
                 <div class="col-lg-4">
                     <div class="left-content">
                         <div class="inner-content">
-                            <h4>DinaZalfa</h4>
-                            <h6>THE BEST FASHION</h6>
+                            <h4>Maysora</h4>
+                            <br>
+                            <h6>ONLINE SHOP</h6>
                             <div class="main-white-button scroll-to-section">
-                                <a href="{{url('/customer/produk/ld')}}">Shop Now</a>
+                                <a href="{{url('/customer/produk/SC')}}">Shop Now</a>
                             </div>
                         </div>
                     </div>
@@ -56,16 +57,18 @@
                     <div class="left-text-content">
                         <div class="section-heading">
                             <h6>About Us</h6>
-                            <h2>We Leave a Stylish Memory For You</h2>
+                            <h2>We Leave a Good Product For You</h2>
                         </div>
-                        <p>DZ or Dina Zalfa Fashion eCommerce is a complete eCommerce that provides quality clothes from world-famous brands with up-to-date fashion models.
-                        Sell clothes for all genders with all types of clothes. The goods sold in the DZ eCommerce are directly from the brand supplier itself. So, the goods 
-                        are guaranteed original and exclusive.</p>
                         <br>
-                        <p>The example of the clothes that we sell is:</p>
+                        <p>Maysora merupakan online shop yang didirikan pada tahun 2021 di Bojonegoro. Maysora
+                            menjual berbagai produk kecantikan yang dijamin 100% Original. Serta menjual berbagai fashion wanita
+                            yang stylish dan juga trendi
+                        </p>
+                        <br>
+                        <p>Produk - produk Maysora:</p>
                         <div class="row">
                             <div class="col-4">
-                                <img src="{{asset('frontend/asset/images/about-us-1.png')}}" alt="">
+                                <img src="{{asset('frontend/asset/images/Avoskin Perfect Hydrating Treatment Essence.png')}}" alt="">
                             </div>
                             <div class="col-4">
                                 <img src="{{asset('frontend/asset/images/about-us-2.png')}}" alt="">

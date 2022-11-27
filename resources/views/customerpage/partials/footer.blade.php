@@ -13,14 +13,14 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="logo">
-                        <a href="{{url('/')}}"><img src="{{asset('frontend/asset/images/logo-2.png')}}" alt="" style="width: 250px;height: 150px;"></a>
+                        <a href="{{url('/')}}"><img src="{{asset('frontend/asset/images/logo-maysora.png')}}" alt="" style="width: 250px;height: 150px;"></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-xs-12">
                     <div class="left-text-content">
                         <p>Copyright © 2022 Dina | Zalfa'
                         
-                        <br>Zarafa Fashion Web</p>
+                        <br>Maysora Website</p>
                     </div>
                 </div>
             </div>

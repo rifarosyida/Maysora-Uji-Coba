@@ -5,17 +5,17 @@
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
                         <a href="index.html" class="logo">
-                            <img src="{{asset('frontend/asset/images/logowebb.png')}}" alt="diza logo" width="160" height="50" align="klassy cafe html template">
+                            <img src="{{asset('frontend/asset/images/logo-maysora.png')}}" alt="diza logo" width="150" height="70" align="klassy cafe html template">
                         </a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
-                            <li class="scroll-to-section"><a href="{{ route('homePageCustomer') }}" class="{{ ($title == 'Dz Fashion - Homepage' )? 'active' : '' }}">Home</a></li>
-                            <li class="scroll-to-section"><a href="{{url('/customer/produk/ld')}}" class="{{ ($title == 'Dz Fashion - Produk' )? 'active' : '' }}">Produk</a></li>
-                            <li class="scroll-to-section"><a href="{{url('/customer/supplier')}}" class="{{ ($title == 'Dz Fashion - Supplier' )? 'active' : '' }}">Supplier</a></li>
-                            <li class="scroll-to-section"><a href="{{url('/customer/about')}}" class="{{ ($title == 'Dz Fashion - About' )? 'active' : ''}}">About</a></li>
+                            <li class="scroll-to-section"><a href="{{ route('homePageCustomer') }}" class="{{ ($title == 'Maysora - Homepage' )? 'active' : '' }}">Home</a></li>
+                            <li class="scroll-to-section"><a href="{{url('/customer/produk/SC')}}" class="{{ ($title == 'Maysora - Produk' )? 'active' : '' }}">Produk</a></li>
+                            <li class="scroll-to-section"><a href="{{url('/customer/supplier')}}" class="{{ ($title == 'Maysora - Supplier' )? 'active' : '' }}">Supplier</a></li>
+                            <li class="scroll-to-section"><a href="{{url('/customer/about')}}" class="{{ ($title == 'Maysora - About' )? 'active' : ''}}">About</a></li>
                             @guest
-                            <li class="scroll-to-section"><a href="{{url('/login')}}" class="{{ ($title == 'Dz Fashion - Login' )? 'active' : ''}}">Login</a></li>
+                            <li class="scroll-to-section"><a href="{{url('/login')}}" class="{{ ($title == 'Maysora - Login' )? 'active' : ''}}">Login</a></li>
                             @endguest
                             @auth
                             <li class="scroll-to-section nav-item dropdown">
@@ -23,9 +23,9 @@
                                   <img src="{{ asset('storage/' . Auth::user()->foto_profil) }}" width="40" height="40" class="rounded-circle shadow">
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                  <a href="{{url('order/my-orders')}}" class="dropdown-item {{ ($title == 'Dz Fashion - My Order' )? 'active' : ''}}">My Orders</a>
-                                  <a href="{{url('/customer/profil')}}" class="dropdown-item {{ ($title == 'Dz Fashion - Profil Customer' )? 'active' : ''}}">Edit Profile</a>
-                                  <a href="{{ route('logout') }}" class="dropdown-item {{ ($title == 'Dz Fashion - Logout' )? 'active' : ''}}">Logout</a>
+                                  <a href="{{url('order/my-orders')}}" class="dropdown-item {{ ($title == 'Maysora - My Order' )? 'active' : ''}}">My Orders</a>
+                                  <a href="{{url('/customer/profil')}}" class="dropdown-item {{ ($title == 'Maysora - Profil Customer' )? 'active' : ''}}">Edit Profile</a>
+                                  <a href="{{ route('logout') }}" class="dropdown-item {{ ($title == 'Maysora - Logout' )? 'active' : ''}}">Logout</a>
                                 </div>
                             </li>
                             <a href="{{ route('cart.index') }}" >

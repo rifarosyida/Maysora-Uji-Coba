@@ -7,8 +7,8 @@
             <div class="row">
                 <div class="col-lg-4 offset-lg-4 text-center">
                     <div class="section-heading">
-                        <h6>Dina Zalfa Fashion</h6>
-                        <h3>Fashion is one of the most desirable industries in the world.</h3>
+                        <h6>Maysora</h6>
+                        <h3>If you can make a woman laugh, you can make her do anything.</h3>
                     </div>
                 </div>
             </div>
@@ -20,10 +20,10 @@
                                 <div class="row">
                                     <div class="col-lg-6 offset-lg-3">
                                         <ul>
-                                            <li><a href="{{ url('customer/produk/ld') }}" class="{{ ($active == 'ld') ? 'produk-aktif' : '' }}"><img src="{{ asset('frontend/asset/images/male.png') }}" >Man</a></a></li>
-                                            <li><a href="{{ url('customer/produk/la') }}" class="{{ ($active == 'la') ? 'produk-aktif' : '' }}"><img src="{{ asset('frontend/asset/images/boy.png') }}" >Boy</a></a></li>
-                                            <li><a href="{{ url('customer/produk/pd') }}" class="{{ ($active == 'pd') ? 'produk-aktif' : ''  }}"><img src="{{ asset('frontend/asset/images/female.png')}}" >Woman</a></li>
-                                            <li><a href="{{ url('customer/produk/pa') }}" class="{{ ($active == 'pa') ? 'produk-aktif' : ''  }}"><img src="{{ asset('frontend/asset/images/girl.png')}}" >Girl</a></li>
+                                            <li><a href="{{ url('customer/produk/SC') }}" class="{{ ($active == 'SC') ? 'produk-aktif' : '' }}"><img src="{{ asset('frontend/asset/images/male.png') }}" >Skincare</a></a></li>
+                                            <li><a href="{{ url('customer/produk/FW') }}" class="{{ ($active == 'FW') ? 'produk-aktif' : '' }}"><img src="{{ asset('frontend/asset/images/boy.png') }}" >Fashion Wanita</a></a></li>
+                                            <li><a href="{{ url('customer/produk/KH') }}" class="{{ ($active == 'KH') ? 'produk-aktif' : ''  }}"><img src="{{ asset('frontend/asset/images/female.png')}}" >Kesehatan</a></li>
+                                            <li><a href="{{ url('customer/produk/SP') }}" class="{{ ($active == 'SP') ? 'produk-aktif' : ''  }}"><img src="{{ asset('frontend/asset/images/girl.png')}}" >souvenir dan Pesta</a></li>
                                             
                                         </ul>
                                     </div>
@@ -59,7 +59,7 @@
                                         <div class="col-lg-12">
                                             <div class="tab-item">
                                                 <a href="{{ route('produk.detail', $produk->id) }}">
-                                                    <img src="/storage/{{ $produk->foto_produk }}" width="100px" height="150px">
+                                                    <img src="/storage/app/public{{ $produk->foto_produk }}" width="100px" height="150px">
                                                 <h4>{{ $produk->nama_produk }}</h4>  
                                                 <p>{{ substr($produk->deskripsi, 0, 80) }}...</p>
                                                 </a>

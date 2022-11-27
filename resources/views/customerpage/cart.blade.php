@@ -1,4 +1,4 @@
-@extends('customerpage.partials.content', ['title' => 'Dz Fashion - Cart'])
+@extends('customerpage.partials.content', ['title' => 'Maysora - Cart'])
 @section('content')
 <div class="breadcrumb-section breadcrumb-bg">
 	<div class="container">

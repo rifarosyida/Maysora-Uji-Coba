@@ -15,521 +15,303 @@ class ProdukSeeder extends Seeder
     public function run()
     {
         DB::table('produk')->insert([
-            //Laki-laki Dewasa
+            //Kecantikan
             [
-                'nama_produk' => 'Regular Fit Hoodie',
-                'foto_produk' => 'images/regularFitL.jpg',
-                'harga' => 479900,
-                'stok' => 20,
-                'diskon' => 0.5,
-                'deskripsi' => 'Long-sleeved hoodie in soft sweatshirt fabric with a kangaroo pocket, double-layered drawstring hood with a wrapover front.',
+                'nama_produk' => 'Avoskin Perfect Hydrating Treatment Essence',
+                'foto_produk' => 'images/Avoskin Perfect Hydrating Treatment Essence.png',
+                'harga' => 299000,
+                'stok' => 3,
+                'diskon' => 0,
+                'deskripsi' => 'Avoskin Perfect Hydrating Treatment Essence hadir dengan kemasan 30 ml yang travel friendly! Memiliki kandungan utama chamomile oil dan ET-VC, produk ini efektif untuk melembapkan kulit, mencerahkan, mengatasi jerawat, anti-inflamasi, dan antioksidan.
+                Produk ini merupakan salah satu produk Avoskin yang minimal ingredients, paraben free, fungal acne safe, dan mengandung fatty alcohol. Kandungan alcohol jenis fatty ini berfungsi sebagai carrying agent yang membantu penyerapan kandungan lain dan efektif untuk melembutkan kulit. 
+                ',
                 'kategori_id' => 1,
                 'supplier_id' => 1
             ],
             [
-                'nama_produk' => 'Resor Bercorak',
+                'nama_produk' => 'Bodyscrub Camille 250gr by camille',
                 'foto_produk' => 'images/resorBercorakL.jpg',
-                'harga' => 199900,
-                'stok' => 20,
+                'harga' => 75000,
+                'stok' => 1,
                 'diskon' => 0,
-                'deskripsi' => 'Kemeja lengan pendek dari tenunan viskose bermotif dengan kerah lapel, plaket Prancis, dan kelim berpotongan lurus. ',
+                'deskripsi' => 'Strawberry Yoghurt Body scrub dapat membantu mengangkat sel-sel kulit mati dan juga dapat mencerahkan serta melembabkan karena body scrub ini memiliki kandungan Niacinamide, Vitamin B, Allantoin, Olive Oil, Yoghurt Juice Powder Extract, Strawberry Juice Powder Extract.',
                 'kategori_id' => 1,
                 'supplier_id' => 2
             ],
             [
-                'nama_produk' => 'Kemeja Regular Fit',
+                'nama_produk' => 'Emina Sugar Rush Lip Scrub 4.2 gr',
                 'foto_produk' => 'images/kemejaregulerL.jpg',
-                'harga' => 429900,
-                'stok' => 26,
-                'diskon' => 0.3,
-                'deskripsi' => 'Kemeja berbahan katun tenun berpola dengan kerah rebah, plaket klasik dan pas bahu di bagian belakang.',
+                'harga' => 38500,
+                'stok' => 100,
+                'diskon' => 0,
+                'deskripsi' => 'Emina Sugar Rush Lip Scrub merupakan scrub khusus bibir untuk menjaga kesehatan bibir dan mengangkat sel kulit mati.  ',
                 'kategori_id' => 1,
                 'supplier_id' => 3
             ],
             [
-                'nama_produk' => 'Kemeja Resort Bermotif',
+                'nama_produk' => 'FACETOLOGY Triple Care Sunscreen SPF 40+ PA+++ Hybrid',
                 'foto_produk' => 'images/kemejaresortL.jpg',
-                'harga' => 379900,
-                'stok' => 12,
+                'harga' => 79999,
+                'stok' => 2,
                 'diskon' => 0,
-                'deskripsi' => 'Kemeja lengan pendek dari tenunan viscose bermotif dengan kerah resort, kancing tanpa garis plaket, dan pas bahu di belakang. ',
+                'deskripsi' => 'Sunscreen ini  menggunakan technology hybrid dengan 3 fokus benefits yaitu : Broad spectrum Protection (UV A, UV B & Blue Light)
+                SPF 40 PA+++, Brightening (with double Brightening Agents), Calming (with Centella asiatica, mugwort extract and Syrcalm technology)Dengan texture yang sangat ringan bahkan seperti air dan minim whitecast, membuat sunscreen ini uniq dan
+                akan menjadi pilihan yang tepat bagi consumers.',
                 'kategori_id' => 1,
                 'supplier_id' => 4
             ],
             [
-                'nama_produk' => 'Kemeja Resor Regular Fit',
+                'nama_produk' => 'Golden Viera Soap',
                 'foto_produk' => 'images/kemejaresorL.jpg',
-                'harga' => 199900,
-                'stok' => 90,
-                'diskon' => 0.1,
-                'deskripsi' => 'Kemeja lengan pendek dari viscose bermotif dengan kerah resort, bagian depan model French, yoke di bagian belakang.',
+                'harga' => 40000,
+                'stok' => 3,
+                'diskon' => 0,
+                'deskripsi' => 'Sabun yang diperkaya dengan bahan-bahan ekstrak alami herbal berkualitas yang baik untuk menutrisi kulit.',
                 'kategori_id' => 1,
                 'supplier_id' => 5
             ],
             [
-                'nama_produk' => 'Resor Bercorak',
+                'nama_produk' => 'Hada Labo Gokujyun Ultimate Moisturizing Lotion',
                 'foto_produk' => 'images/patterned.jpg',
-                'harga' => 199900,
-                'stok' => 76,
-                'diskon' => 0.1,
-                'deskripsi' => 'kemeja lengan pendek dari tenunan viskose bermotif dengan kerah lapel, plaket Prancis, dan kelim berpotongan lurus.',     
+                'harga' => 55000,
+                'stok' => 1,
+                'diskon' => 0,
+                'deskripsi' => 'adalah toner pelembab yang mengandung 3 jenis Hyaluronic Acid untuk membantu meningkatkan kelembaban pada kulit dan
+                 mempertahankan keseimbangan serta kelembaban kulit. Lotion ini dapat mengunci kelembaban di dalam kulit sehingga kulit terhidrasi dengan baik. Kulit akan terasa lebih halus, lembut dan tetap elastis. Mengandung alkohol sebagai astringent yang mengurangi produksi minyak berlebih dan membuat kulit senantiasa terasa lebih segar',     
                 'kategori_id' => 1,
-                'supplier_id' => 1
+                'supplier_id' => 6
             ],
             [
-                'nama_produk' => 'Kemeja Katun',
+                'nama_produk' => 'Madame Gie Madame Perfect Brow - MakeUp Pensil alis Mekanik',
                 'foto_produk' => 'images/kemejakatunL.jpg',
-                'harga' => 199900,
-                'stok' => 50,
-                'diskon' => 0.1,
-                'deskripsi' => 'Kemeja lengan pendek bahan tenunan katun bermotif dengan kerah turn-down, classic front, dan pas bahu di bagian belakang. ',
+                'harga' => 20000,
+                'stok' => 2,
+                'diskon' => 0,
+                'deskripsi' => 'Pensil Alis Putar (Eyebrow Matic) yang dilengkapi dengan bulu sikat untuk memudahkan pembauran dan untuk merapikan alis. Memiliki formula waterproof, smudgeproof dan tahan lama.',
                 'kategori_id' => 1,
-                'supplier_id' => 2
+                'supplier_id' => 7
             ],
             [
-                'nama_produk' => 'Round-neck T-shirt Regular Fit',
+                'nama_produk' => 'Noera 3 In 1 Body Spray | Natural Deo Spray Penghilang Bau Badan BPOM',
                 'foto_produk' => 'images/roundneckL.jpg',
-                'harga' => 99900,
-                'stok' => 87,
-                'diskon' => 0.5,
-                'deskripsi' => 'Round-necked T-shirt in soft cotton jersey.',
+                'harga' => 44900,
+                'stok' => 2,
+                'diskon' => 0,
+                'deskripsi' => 'Wajib banget yaa nyetok noera body spray yang super ampuh bikin kamu pede seharian tanpa BAU!.
+                cocok  juga untuk remaja yg baru pubertas dgn keringat berlebih pengganti deodorant, tidak bikin KETEK HITAM & BAJU KUNING',
                 'kategori_id' => 1,
-                'supplier_id' => 3
+                'supplier_id' => 8
             ],
             [
-                'nama_produk' => 'Jaket Kemeja Felt',
+                'nama_produk' => 'NPURE Face Wash / FOAM CENTELLA ASIATICA (Cica Series)',
                 'foto_produk' => 'images/jaketKemejaL.jpg',
-                'harga' => 429900,
-                'stok' => 75,
-                'diskon' => 0.5,
-                'deskripsi' => 'Jaket kemeja dengan bahan kain felt yang lembut dengan kerah dan kancing di bagian depan dan yoke di bagian belakang. ',
+                'harga' => 90000,
+                'stok' => 5,
+                'diskon' => 0,
+                'deskripsi' => 'Pembersih  Wajah Ringan dengan kandungan Real Centella Leaves, Green Tea, Mix Fruit Extract, dan Vit B3/Niacinamide',
                 'kategori_id' => 1,
-                'supplier_id' => 4
+                'supplier_id' => 9
             ],
             [
-                'nama_produk' => 'Printed T-Shirt',
+                'nama_produk' => 'Scarlett Whitening Skin Smoothing Retinol Serum',
                 'foto_produk' => 'images/printedL.jpg',
-                'harga' => 169900,
-                'stok' => 88,
+                'harga' => 75000,
+                'stok' => 5,
                 'diskon' => 0,
-                'deskripsi' => 'T-shirt in soft cotton jersey with a round neckline and a print motif.',
+                'deskripsi' => 'Manfaat Retinol adalah Mencegah tanda-tanda penuaan dan menyamarkan garis-garis halus yang telah muncul,
+                Meningkatkan proses regenerasi kulit sehingga sel kulit mati terangkat dan kulit terlihat lebih cerah serta halus,
+                Membantu menyamarkan tampilan pon-porbesar, dan Membantu meningkatkan produksi Kolagen dan elastin sehingga kulit terasa lebih kenyal',
                 'kategori_id' => 1,
-                'supplier_id' => 5
+                'supplier_id' => 10
             ],
             [
-                'nama_produk' => 'Jaket Softshell Regular Fit',
+                'nama_produk' => 'SKINTIFIC - 360 Crystal Massager Lifting Eye Cream',
                 'foto_produk' => 'images/jacketL.jpg',
-                'harga' => 599900,
-                'stok' => 43,
-                'diskon' => 0.6,
-                'deskripsi' => 'Jaket dari kain fungsional yang tahan angin dan anti air yang dirancang untuk membuat Anda tetap kering selama hujan.',
+                'harga' =>189900,
+                'stok' => 1,
+                'diskon' => 0,
+                'deskripsi' => 'Eye cream supercharged yang mengandung 3D Peptide Complex dan Niacinamide untuk mengurangi garis-garis halus, kerutan, 
+                sembab, serta mencerahkan area bawah mata yang gelap. Dilengkapi dengan teknologi 360 ° Crystal Rolling Massager, sebuah teknologi Lift-Tech ™ 
+                dari Jerman dengan 184 permukaan kristal dan dapat berputar searah 360 °, sehingga membantu daya serap kandungan aktif pada kulit dan mengurangi garis-garis halus yang terlihat & kantung mata di waktu yang bersamaan.',
                 'kategori_id' => 1,
-                'supplier_id' => 1
+                'supplier_id' => 11
             ],
             [
-                'nama_produk' => 'Jacquard-weave Cotton Jacket',
+                'nama_produk' => 'AZARINE HYDRASHOOTHE SUNSCREEN GEL SPF45 PA++++',
                 'foto_produk' => 'images/jacquardL.jpg',
-                'harga' => 999900,
-                'stok' => 60,
-                'diskon' => 0.6,
-                'deskripsi' => 'An uncompromising collection made from more sustainable materials developed together with actor and innovator, John Boyega.', 
+                'harga' => 68000,
+                'stok' => 10,
+                'diskon' => 0,
+                'deskripsi' => 'Tabir surya wajah dalam bentuk gel ( water base) yang sangat ringan, dingin dan mudah meresap untuk seluruh jenis kulit 
+                termasuk kulit berminyak dan acne prone skin. Di formulasikan dengan kandungan bahan alami Propolis, aloe Vera, green tea dan delima untuk melindungi kulit dari sinar UV A & UV B serta menutrisi kulit.  ', 
                 'kategori_id' => 1,
-                'supplier_id' => 2
+                'supplier_id' => 12
             ],
-            //Lelaki Anak-anak
+            //Fahion Wanita
             [
-                'nama_produk' => 'Printed T-shirt A',
+                'nama_produk' => 'Amira Blouse',
                 'foto_produk' => 'images/pt1.jpg',
-                'harga' => 99900,
-                'stok' => 80,
+                'harga' => 49990,
+                'stok' => 15,
                 'diskon' => 0,
-                'deskripsi' => 'T-shirt in soft, printed cotton jersey with a narrow trim around the neckline', 
+                'deskripsi' => 'dibuat dengan bahan rayon viscose dengan ukuran Lebar dada -/+ 110cm, Panjang baju depan  -/+ 63cm,
+                Panjang baju belakang -/+ 70cm, Panjang lengan -/+ 55cm, Lebar bahu -/+ 40cm. Allsize Fit To XL ( 1 Ukuran )', 
                 'kategori_id' => 2,
-                'supplier_id' => 3
+                'supplier_id' => 13
             ],
             [
-                'nama_produk' => 'Printed T-shirt B',
+                'nama_produk' => 'Candy Oversize',
                 'foto_produk' => 'images/pt2.jpg',
-                'harga' => 99900,
-                'stok' => 90,
+                'harga' => 38000,
+                'stok' => 5,
                 'diskon' => 0,
-                'deskripsi' => 'T-shirt in soft, printed cotton jersey with a narrow trim around the neckline', 
+                'deskripsi' => 'Bahan Katun Poly Fit XL dengan ukuran Lingkar dada 124cm, Panjang baju 59cm, dan Panjang lengan 43cm', 
                 'kategori_id' => 2,
-                'supplier_id' => 4
+                'supplier_id' => 13
             ],
             [
-                'nama_produk' => 'Printed T-shirt C',
+                'nama_produk' => 'HIJAB SPORT BAHAN STELLA PREMIUM',
                 'foto_produk' => 'images/pt3.jpg',
-                'harga' => 99900,
-                'stok' => 80,
+                'harga' => 16900,
+                'stok' => 8,
                 'diskon' => 0,
-                'deskripsi' => 'T-shirt in soft, printed cotton jersey with a narrow trim around the neckline', 
+                'deskripsi' => 'Bergo sport jilbab sport bahan premium STELLA BUKAN JERSEY. Pad anti tembem
+                Cocok bgt buat jilbab olahraga, dipake dirumah sehari-hari atau buat kerja yg mengharuskan memakai jilbab yg dimasukkan ke dalem baju ini tuh cocok bgt ya kak.
+                Bahan STELLA PREMIUM super nyaman tidak transparan, ketebalan pas.', 
                 'kategori_id' => 2,
-                'supplier_id' => 5
+                'supplier_id' => 13
             ],
             [
-                'nama_produk' => 'Printed T-shirt D',
+                'nama_produk' => 'Inner leher | manset leher',
                 'foto_produk' => 'images/pt4.jpg',
-                'harga' => 99900,
-                'stok' => 76,
+                'harga' => 15900,
+                'stok' => 11,
                 'diskon' => 0,
-                'deskripsi' => 'T-shirt in soft, printed cotton jersey with a narrow trim around the neckline', 
+                'deskripsi' => 'Bahan kaos super nyaman, tidak bikin gatel di leher/dada. Cocok bgt buat kalian yg pny baju/outer2 yg kancingnya aga ke bawah jadi tinggal kalian tambah inner leher aja, tanpa harus pake manset badan uda aman bgt ya, dada dan leher ga keliatan lagi deh. Jadi lbh nyaman dipake.', 
                 'kategori_id' => 2,
-                'supplier_id' => 1
+                'supplier_id' => 13
             ],
             [
-                'nama_produk' => 'Printed T-shirt E',
+                'nama_produk' => 'Inner Rib Ruffle Turtleneck',
                 'foto_produk' => 'images/pt5.jpg',
-                'harga' => 99900,
-                'stok' => 30,
+                'harga' => 45900,
+                'stok' => 4,
                 'diskon' => 0,
-                'deskripsi' => 'T-shirt in soft, printed cotton jersey with a narrow trim around the neckline', 
+                'deskripsi' => 'Bahan kain rib premium yang Halus, Tebal, dan Lentur sehingga sangat lembut dan menyerap keringat.', 
                 'kategori_id' => 2,
-                'supplier_id' => 2
+                'supplier_id' => 13
             ],
             [
-                'nama_produk' => 'Printed T-shirt F',
+                'nama_produk' => 'Kaos Rib Basic',
                 'foto_produk' => 'images/pt6.jpg',
-                'harga' => 99900,
-                'stok' => 18,
+                'harga' => 40000,
+                'stok' => 5,
                 'diskon' => 0,
-                'deskripsi' => 'T-shirt in soft, printed cotton jersey with a narrow trim around the neckline', 
+                'deskripsi' => 'LD 100cm bisa melar sampai 110cm⁣. PB +/- 70cm. Bahan plisket adem gak terawang', 
                 'kategori_id' => 2,
-                'supplier_id' => 3
+                'supplier_id' => 13
             ],
             [
-                'nama_produk' => 'Printed T-shirt G',
+                'nama_produk' => 'Paris Premium Voal',
                 'foto_produk' => 'images/pt7.jpg',
                 'harga' => 99900,
                 'stok' => 56,
                 'diskon' => 0,
-                'deskripsi' => 'T-shirt in soft, printed cotton jersey with a narrow trim around the neckline', 
+                'deskripsi' => 'Kerudung Segi Empat Paris Voal // Paris Premium // Segi Empat Paris Polos. 
+                berbahan paris namun tegak seperti voal, mudah dibentuk dan tidak mudah letoy, lemes tidak licin sama sekali, finishing garis tepi.', 
                 'kategori_id' => 2,
-                'supplier_id' => 4
+                'supplier_id' => 13
             ],
             [
-                'nama_produk' => 'Printed T-shirt H',
+                'nama_produk' => 'PASMINA CERUTY BABYDOL IMPORT',
                 'foto_produk' => 'images/pt8.jpg',
-                'harga' => 99900,
-                'stok' => 40,
+                'harga' => 29900,
+                'stok' => 10,
                 'diskon' => 0,
-                'deskripsi' => 'T-shirt in soft, printed cotton jersey with a narrow trim around the neckline', 
+                'deskripsi' => 'Pasmina CERUTY. Bahan babydol premium. sangat jatuh. TEPI JAHIT RAPI. Ukuran 175X75cm. Mudah di bentuk', 
                 'kategori_id' => 2,
-                'supplier_id' => 5
+                'supplier_id' => 13
             ],
             [
-                'nama_produk' => 'Printed T-shirt I',
+                'nama_produk' => 'PASMINA INNER PREMIUM 2 in 1',
                 'foto_produk' => 'images/pt9.jpg',
-                'harga' => 99900,
-                'stok' => 34,
+                'harga' => 35000,
+                'stok' => 4,
                 'diskon' => 0,
-                'deskripsi' => 'T-shirt in soft, printed cotton jersey with a narrow trim around the neckline', 
+                'deskripsi' => 'pashmina inner 2in1 . Cocok di pakai daily maupun acara formal/casual. 
+                Gak perlu pakai inner terpisah karna sudah include innernya langsung.', 
                 'kategori_id' => 2,
-                'supplier_id' => 1
+                'supplier_id' => 13
             ],
             [
-                'nama_produk' => 'Printed T-shirt J',
+                'nama_produk' => 'PASMINA PLISKET PREMIUM TANPA GARIS TENGAH',
                 'foto_produk' => 'images/pt10.jpg',
-                'harga' => 99900,
-                'stok' => 65,
+                'harga' => 33900,
+                'stok' => 4,
                 'diskon' => 0,
-                'deskripsi' => 'T-shirt in soft, printed cotton jersey with a narrow trim around the neckline', 
+                'deskripsi' => 'Pashmina Plisket Premium. Plisket nya full sampe ke ujung. Mudah diatur.
+                Tegak di dahi.  Tidak mudah kusut. Bisa di styling sesuai keinginan kalian. Tersedia banyak pilihan warna', 
                 'kategori_id' => 2,
-                'supplier_id' => 2
+                'supplier_id' => 13
             ],
             [
-                'nama_produk' => 'Printed T-shirt K',
+                'nama_produk' => 'Pashmina Silk Premium',
                 'foto_produk' => 'images/pt11.jpg',
-                'harga' => 99900,
-                'stok' => 11,
+                'harga' => 39900,
+                'stok' => 10,
                 'diskon' => 0,
-                'deskripsi' => 'T-shirt in soft, printed cotton jersey with a narrow trim around the neckline', 
+                'deskripsi' => 'Bahanya yang Exclusive dan Mewah jadi nilai Plus buat Pashima iniiii gak perlu di strika.
+                Matterial CARDENZA Silk. Jahit Tepi seluruh bagian. Tidak terawang. Flowy dan Mudah di bentuk. Serat halus.', 
                 'kategori_id' => 2,
-                'supplier_id' => 3
+                'supplier_id' => 13
             ],
             [
-                'nama_produk' => 'Printed T-shirt L',
+                'nama_produk' => 'SEGIEMPAT INNER 2in1',
                 'foto_produk' => 'images/pt12.jpg',
-                'harga' => 99900,
-                'stok' => 83,
+                'harga' => 38000,
+                'stok' => 14,
                 'diskon' => 0,
-                'deskripsi' => 'T-shirt in soft, printed cotton jersey with a narrow trim around the neckline', 
+                'deskripsi' => 'Hijab super simple yang ngga harus ribet, tinggal slup lansung pakai aja, 
+                tapi tetap bikin look kamu beauty & stylist ', 
                 'kategori_id' => 2,
-                'supplier_id' => 4
-            ],
-            [
-                'nama_produk' => 'Printed T-shirt M',
-                'foto_produk' => 'images/pt13.jpg',
-                'harga' => 99900,
-                'stok' => 42,
-                'diskon' => 0,
-                'deskripsi' => 'T-shirt in soft, printed cotton jersey with a narrow trim around the neckline', 
-                'kategori_id' => 2,
-                'supplier_id' => 5
-            ],
-            [
-                'nama_produk' => 'Printed T-shirt N',
-                'foto_produk' => 'images/pt14.jpg',
-                'harga' => 99900,
-                'stok' => 81,
-                'diskon' => 0,
-                'deskripsi' => 'T-shirt in soft, printed cotton jersey with a narrow trim around the neckline', 
-                'kategori_id' => 2,
-                'supplier_id' => 1
-            ],
-            [
-                'nama_produk' => 'Printed T-shirt O',
-                'foto_produk' => 'images/pt15.jpg',
-                'harga' => 99900,
-                'stok' => 100,
-                'diskon' => 0,
-                'deskripsi' => 'T-shirt in soft, printed cotton jersey with a narrow trim around the neckline', 
-                'kategori_id' => 2,
-                'supplier_id' => 2
+                'supplier_id' => 13
             ],
      
-            //Perempuan Dewasa
+            //Perempuan Kesehatan
             [
-                'nama_produk' => 'Gaun V-neck',
+                'nama_produk' => 'GLOW COLLAGEN QUEENZY SKIN',
                 'foto_produk' => 'images/gaunvneckP.jpg',
-                'harga' => 479900,
-                'stok' => 10,
-                'diskon' => 0.5,
-                'deskripsi' => 'Gaun 3/4 dari bahan tenunan viscose. V-neck dalam di depan dan belakang dengan tali tipis yang diikat di belakang. Lengan panjang dengan karet tipis di bagian manset, jahitan kerut di bawah payudara dengan karet tipis di bagian belakang, dan rok yang melebar dengan lembut. Tanpa furing.',  
+                'harga' => 25000,
+                'stok' => 8,
+                'diskon' => 0,
+                'deskripsi' => 'Kandungan collagen 1.500 mg yang lebih mudah menyerap ke dalam tubuh. Glutathione yang akan dengan antioksidan.
+                Fiber untuk melancarkan pencernaan dan detox tubuh. Low Calories dengan Gula Stevia dan lebih aman untuk penderita diabetes.
+                Aman untuk penderita maag. Dapat digunakan mulai umur 13 tahun.',  
                 'kategori_id' => 3,
-                'supplier_id' => 3
+                'supplier_id' => 13
             ],
             [
-                'nama_produk' => 'Tie-belt Crêpe Dress',
+                'nama_produk' => 'Noera Collagen Drink',
                 'foto_produk' => 'images/tie-beltP.jpg',
-                'harga' => 549900,
-                'stok' => 90,
-                'diskon' => 0.1,
-                'deskripsi' => 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. A explicabo dolorem eum doloremque pariatur? Saepe, quasi ducimus debitis neque ullam vel inventore necessitatibus asperiores laborum. Alias, tempora. Quod iure nemo blanditiis dicta fuga nam nobis aliquam tenetur neque, fugit voluptates non, ducimus illum assumenda totam earum atque culpa maxime dolore veritatis dolores rerum. Explicabo reprehenderit doloribus distinctio deserunt alias earum quas nam ullam possimus. Consequatur natus minima nisi fugiat cupiditate excepturi delectus vitae, hic dicta repudiandae, in commodi aliquid doloribus doloremque assumenda consequuntur maiores? Sit pariatur nesciunt ipsum illo soluta accusamus eos, eum architecto? Natus tenetur nam beatae recusandae dolor!',
-                'kategori_id' => 3,
-                'supplier_id' => 4
-            ],
-            [
-                'nama_produk' => 'Ribbed Top',
-                'foto_produk' => 'images/ribbed-topP.jpg',
-                'harga' => 379900,
-                'stok' => 78,
+                'harga' => 185000,
+                'stok' => 5,
                 'diskon' => 0,
-                'deskripsi' => 'Fitted top in ribbed jersey made from a cotton blend. Collar, buttons made from shell down the front and short raglan sleeves.',    
+                'deskripsi' => 'New formula dengan kandungan salmon collagen dan glutathione terbaik, lebih rendah kalori, rendah lemak dan rendah karbohidrat, lebih sehat.
+                Kualitas premium & harga terjangkau',
                 'kategori_id' => 3,
-                'supplier_id' => 5
-            ],
-            [
-                'nama_produk' => 'Cotton-blend Shirt',
-                'foto_produk' => 'images/cotton-blendShirtP.jpg',
-                'harga' => 379900,
-                'stok' => 10,
-                'diskon' => 0.1,
-                'deskripsi' => 'Long-sleeved shirt woven in a cotton blend with a collar and buttons down the front. Yoke at the back, buttoned cuffs and a rounded hem.',             
-                'kategori_id' => 3,
-                'supplier_id' => 1
-            ],
-            [
-                'nama_produk' => 'Gaun Chiffon Panjang',
-                'foto_produk' => 'images/gaunChifP.jpg',
-                'harga' => 549900,
-                'stok' => 10,
-                'diskon' => 0.6,
-                'deskripsi' => 'Gaun panjang yang melebar lembut dari chiffon airy dengan kerah kecil berumbai, bukaan berbentuk V di bagian depan dengan tali panjang dan pas bahu yang mengerut di bagian depan dan belakang',              
-                'kategori_id' => 3,
-                'supplier_id' => 2
-            ],
-            [
-                'nama_produk' => 'Tie-belt Satin Dress',
-                'foto_produk' => 'images/tie-beltsatinP.jpg',
-                'harga' => 699900,
-                'stok' => 50,
-                'diskon' => 0.5,
-                'deskripsi' => 'Calf-length dress in softly draping satin with a deep V-neck and a wrapover at the top of the front. Concealed zip in one side, 3/4-length, cuffed puff sleeves, and a seam with a wide tie belt at the waist. Unlined.',                         
-                'kategori_id' => 3,
-                'supplier_id' => 3
-            ],
-            [
-                'nama_produk' => 'Atasan Berlengan Gembung',
-                'foto_produk' => 'images/atasanGP.jpg',
-                'harga' => 199900,
-                'stok' => 40,
-                'diskon' => 0,
-                'deskripsi' => 'Atasan dari kain sweatshirt katun ringan dengan garis leher bulat, lengan puff pendek, dan rib di sekeliling garis leher, manset, dan kelim.',
-                'kategori_id' => 3,
-                'supplier_id' => 4
-            ],
-            [
-                'nama_produk' => 'Atasan Bersalur Dengan Kerah',
-                'foto_produk' => 'images/atasanBersalurP.jpg',
-                'harga' => 299900,
-                'stok' => 20,
-                'diskon' => 0.1,
-                'deskripsi' => 'Atasan lengan pendek dari jersey bersalur dengan kerah, kancing di bagian depan, applique',
-                'kategori_id' => 3,
-                'supplier_id' => 5
-            ],
-            [
-                'nama_produk' => 'Sweatshirt',
-                'foto_produk' => 'images/sweatshirt.jpg',
-                'harga' => 200000,
-                'stok' => 10,
-                'diskon' => 0,
-                'deskripsi' => 'Top in soft sweatshirt fabric made from a cotton blend with a round neckline and long raglan sleeves.',
-                'kategori_id' => 3,
-                'supplier_id' => 1
-            ],
-            [
-                'nama_produk' => 'Gaun Kemeja',
-                'foto_produk' => 'images/gaunKemejaP.jpg',
-                'harga' => 449900,
-                'stok' => 80,
-                'diskon' => 0.6,
-                'deskripsi' => 'Gaun 3/4 berbahan tenunan viscose blend dengan kerah, kancing di depan dan pas bahu dengan lipit di belakang. ',    
-                'kategori_id' => 3,
-                'supplier_id' => 2
-            ],
-            [
-                'nama_produk' => 'Flounce-collared Blouse',
-                'foto_produk' => 'images/flounceP.jpg',
-                'harga' => 379900,
-                'stok' => 100,
-                'diskon' => 0.4,
-                'deskripsi' => 'Blouse in an airy weave made from a lyocell blend with a wide, flounced collar and V-neck opening at the front with narrow ties. ',
-                'kategori_id' => 3,
-                'supplier_id' => 3
-            ],
-            [
-                'nama_produk' => 'Blus Berhias Broderie',
-                'foto_produk' => 'images/blusP.jpg',
-                'harga' => 599900,
-                'stok' => 70,
-                'diskon' => 0.5,
-                'deskripsi' => 'Blus lebar dari katun longgar dengan kerah tegak kecil berhias jumbai dan pas bahu broderie anglaise bentuk V yang berumbai. ',          
-                'kategori_id' => 3,
-                'supplier_id' => 4
+                'supplier_id' => 13
             ],
 
-            //Perempuan Anak
+            //souvenir
             [
-                'nama_produk' => 'Patterned Jersey Dress A',
+                'nama_produk' => 'Packaging Box (FREE Kartu Ucapan)',
                 'foto_produk' => 'images/pd1.jpg',
-                'harga' => 99900,
-                'stok' => 70,
-                'diskon' => 0,
-                'deskripsi' => 'Sleeveless dress in patterned cotton jersey with a gathered seam at the waist and flared skirt.',          
-                'kategori_id' => 4,
-                'supplier_id' => 5
-            ],
-            [
-                'nama_produk' => 'Patterned Jersey Dress B',
-                'foto_produk' => 'images/pd2.jpg',
-                'harga' => 99900,
-                'stok' => 60,
-                'diskon' => 0,
-                'deskripsi' => 'Sleeveless dress in patterned cotton jersey with a gathered seam at the waist and flared skirt.',          
-                'kategori_id' => 4,
-                'supplier_id' => 1
-            ],
-            [
-                'nama_produk' => 'Patterned Jersey Dress C',
-                'foto_produk' => 'images/pd3.jpg',
-                'harga' => 99900,
-                'stok' => 50,
-                'diskon' => 0,
-                'deskripsi' => 'Sleeveless dress in patterned cotton jersey with a gathered seam at the waist and flared skirt.',          
-                'kategori_id' => 4,
-                'supplier_id' => 2
-            ],
-            [
-                'nama_produk' => 'Patterned Jersey Dress D',
-                'foto_produk' => 'images/pd4.jpg',
-                'harga' => 99900,
+                'harga' => 10000,
                 'stok' => 40,
                 'diskon' => 0,
-                'deskripsi' => 'Sleeveless dress in patterned cotton jersey with a gathered seam at the waist and flared skirt.',          
+                'deskripsi' => 'KOTAK KADO TANPA ISI !!!. Sudah sama pita dan kartu ucapan kartu ucapan bisa pilih (cantumkan di pesan ya)',          
                 'kategori_id' => 4,
-                'supplier_id' => 3
-            ],
-            [
-                'nama_produk' => 'Patterned Jersey Dress E',
-                'foto_produk' => 'images/pd5.jpg',
-                'harga' => 99900,
-                'stok' => 30,
-                'diskon' => 0,
-                'deskripsi' => 'Sleeveless dress in patterned cotton jersey with a gathered seam at the waist and flared skirt.',          
-                'kategori_id' => 4,
-                'supplier_id' => 4
-            ],
-            [
-                'nama_produk' => 'Patterned Jersey Dress F',
-                'foto_produk' => 'images/pd6.jpg',
-                'harga' => 99900,
-                'stok' => 20,
-                'diskon' => 0,
-                'deskripsi' => 'Sleeveless dress in patterned cotton jersey with a gathered seam at the waist and flared skirt.',          
-                'kategori_id' => 4,
-                'supplier_id' => 5
-            ],
-            [
-                'nama_produk' => 'Patterned Jersey Dress G',
-                'foto_produk' => 'images/pd7.jpg',
-                'harga' => 99900,
-                'stok' => 10,
-                'diskon' => 0,
-                'deskripsi' => 'Sleeveless dress in patterned cotton jersey with a gathered seam at the waist and flared skirt.',          
-                'kategori_id' => 4,
-                'supplier_id' => 1
-            ],
-            [
-                'nama_produk' => 'Patterned Jersey Dress H',
-                'foto_produk' => 'images/pd8.jpg',
-                'harga' => 99900,
-                'stok' => 51,
-                'diskon' => 0,
-                'deskripsi' => 'Sleeveless dress in patterned cotton jersey with a gathered seam at the waist and flared skirt.',          
-                'kategori_id' => 4,
-                'supplier_id' => 2
-            ],
-            [
-                'nama_produk' => 'Patterned Jersey Dress I',
-                'foto_produk' => 'images/pd9.jpg',
-                'harga' => 99900,
-                'stok' => 98,
-                'diskon' => 0,
-                'deskripsi' => 'Sleeveless dress in patterned cotton jersey with a gathered seam at the waist and flared skirt.',          
-                'kategori_id' => 4,
-                'supplier_id' => 3
-            ],
-            [
-                'nama_produk' => 'Patterned Jersey Dress J',
-                'foto_produk' => 'images/pd10.jpg',
-                'harga' => 99900,
-                'stok' => 54,
-                'diskon' => 0,
-                'deskripsi' => 'Sleeveless dress in patterned cotton jersey with a gathered seam at the waist and flared skirt.',          
-                'kategori_id' => 4,
-                'supplier_id' => 4
-            ],
-            [
-                'nama_produk' => 'Patterned Jersey Dress K',
-                'foto_produk' => 'images/pd11.jpg',
-                'harga' => 99900,
-                'stok' => 64,
-                'diskon' => 0,
-                'deskripsi' => 'Sleeveless dress in patterned cotton jersey with a gathered seam at the waist and flared skirt.',          
-                'kategori_id' => 4,
-                'supplier_id' => 5
-            ],
-            [
-                'nama_produk' => 'Patterned Jersey Dress L',
-                'foto_produk' => 'images/pd12.jpg',
-                'harga' => 99900,
-                'stok' => 100,
-                'diskon' => 0,
-                'deskripsi' => 'Sleeveless dress in patterned cotton jersey with a gathered seam at the waist and flared skirt.',          
-                'kategori_id' => 4,
-                'supplier_id' => 1
+                'supplier_id' => 13
             ],
             ]);
     }

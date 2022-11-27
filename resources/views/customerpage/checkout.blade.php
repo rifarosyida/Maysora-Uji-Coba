@@ -1,4 +1,4 @@
-@extends('customerpage.partials.content', ['title' => 'Dz Fashion - Checkout'])
+@extends('customerpage.partials.content', ['title' => 'Maysora - Checkout'])
 @section('content')
 <!-- breadcrumb-section -->
 <form action="/checkout/pembayaran" method="GET">

@@ -4,7 +4,7 @@ if (!empty($order)) {
 $OD = \App\Models\OrderDetail::where('order_id', $order->id)->get();
 }
 @endphp
-@extends('customerpage.partials.content', ['title' => 'Dz Fashion - Pembayaran'])
+@extends('customerpage.partials.content', ['title' => 'Maysora - Pembayaran'])
 
 @section('content')
 <!-- breadcrumb-section -->

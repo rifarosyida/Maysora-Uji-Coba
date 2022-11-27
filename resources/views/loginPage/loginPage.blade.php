@@ -11,7 +11,7 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="#"><strong>Diza</strong>Fashion Shop</a>
+    <a href="#"><strong>Maysora</strong><br>Woman Online Shop</a>
   </div>
   <!-- /.login-logo -->
   <div class="card">

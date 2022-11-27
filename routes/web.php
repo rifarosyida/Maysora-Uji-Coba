@@ -67,7 +67,7 @@ Route::middleware(['auth','cekStatus:admin'])->group(function () {
     Route::resource('produk', ProdukController::class);
 });
 
-Route::get('/customer/produk/{keyword}',[CustomerPageController::class, 'produk'])->name('LD');
+Route::get('/customer/produk/{keyword}',[CustomerPageController::class, 'produk'])->name('SC');
 Route::get('/customer/produk/search', [CustomerPageController::class, 'index2'])->name('produk.search');
 Route::get('/customer/supplier', [CustomerPageController::class, 'supplier']);
 Route::get('/customer/detailproduk/{id}', [CustomerPageController::class, 'detail'])->name('produk.detail');

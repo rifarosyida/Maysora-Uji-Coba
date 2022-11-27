@@ -15,20 +15,20 @@ class KategoriSeeder extends Seeder
     {
         DB::table('kategori')->insert([
             [
-                'nama_kategori' => 'LD',
-                'keterangan' => 'Laki-laki Dewasa',
+                'nama_kategori' => 'SC',
+                'keterangan' => 'Skincare',
             ],
             [
-                'nama_kategori' => 'LA',
-                'keterangan' => 'Laki-laki Anak-anak',
+                'nama_kategori' => 'FW',
+                'keterangan' => 'Fashion Wanita',
             ],
             [
-                'nama_kategori' => 'PD',
-                'keterangan' => 'Perempuan Dewasa',
+                'nama_kategori' => 'KH',
+                'keterangan' => 'Kesehatan',
             ],
             [
-                'nama_kategori' => 'PA',
-                'keterangan' => 'Perempuan Anak-anak',
+                'nama_kategori' => 'SP',
+                'keterangan' => 'Souvenir dan Pesta',
             ]
             ]);  
     }

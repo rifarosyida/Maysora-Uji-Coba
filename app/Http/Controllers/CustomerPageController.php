@@ -37,14 +37,14 @@ class CustomerPageController extends Controller
      
         $aktif = '';
     
-        if ($keyword == 'ld') {
-            $aktif = 'ld';
-        } else if ($keyword == 'la') {
-            $aktif = 'la';
-        } else if ($keyword == 'pd') {
-            $aktif  = 'pd';
+        if ($keyword == 'SC') {
+            $aktif = 'SC';
+        } else if ($keyword == 'FW') {
+            $aktif = 'FW';
+        } else if ($keyword == 'KH') {
+            $aktif  = 'KH';
         } else {
-            $aktif = 'pa';
+            $aktif = 'SP';
         }
 
         $category = Kategori::where('nama_kategori', '=', $keyword)->first();
@@ -60,7 +60,7 @@ class CustomerPageController extends Controller
                 $perPage = 6, $columns = ['*'], $pageName = $keyword
             );
         return view('customerpage.produk')
-        ->with('title', 'Dz Fashion - Produk')
+        ->with('title', 'Maysora - Produk')
         ->with('all_produk', $data)
         ->with('all_cart', $all_cart)
         ->with('active', $aktif);
@@ -73,7 +73,7 @@ class CustomerPageController extends Controller
         $all_cart = Cart::all()->where('user_id',Auth::user()->id);
     }
     return view('customerpage.supplier')
-    ->with('title', 'Dz Fashion - Supplier')
+    ->with('title', 'Maysora - Supplier')
     ->with('all_supplier', $all_supplier)
     ->with('all_cart', $all_cart);
 }
@@ -81,7 +81,7 @@ class CustomerPageController extends Controller
     {
         $all_cart = Cart::all()->where('user_id',Auth::user()->id);
         return view('customerpage.profil', [
-            'title' => 'Dz Fashion - Profil Customer',
+            'title' => 'Maysora - Profil Customer',
             'user' => Auth::user(),
             'all_cart'=> $all_cart
             
@@ -136,7 +136,7 @@ class CustomerPageController extends Controller
             $all_cart = Cart::all()->where('user_id',Auth::user()->id);
         }
             return view('customerpage.detailproduk',[
-            'title' => 'Dz Fashion - Detail Produk',
+            'title' => 'Maysora - Detail Produk',
                 'produk' => $produk,
                 'all_cart' => $all_cart,
                 'kategori' => Kategori::all(),
